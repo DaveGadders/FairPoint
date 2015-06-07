@@ -1,0 +1,62 @@
+<ion-modal-view>
+
+	<ion-header-bar class="about-mod-header">
+
+		<h1 class="title"> The Crew </h1>
+
+		<button class="button button-clear", ng-click="closeModal()">
+		
+		    Close
+
+		</button>
+	
+	</ion-header-bar>
+	
+	<ion-content class="about-mod-body">
+	
+		<!-- CARD REPEAT -->
+		<div class="list card" ng-repeat="crew in crews">
+
+			<!-- INTRO -->
+			<div class="item">
+
+				<h2> {{ crew.name }}, {{ crew.age }} </h2>
+
+				<p> {{ crew.position }} </p>
+
+			</div>
+
+			<!-- CREW MEMBER -->
+			<div class="item item-body">
+
+				<img class="full-image crew-pic" src="{{ crew.photo }}">
+
+				<p> {{ crew.description }} </p>
+
+			</div>
+
+			<!-- SOCIAL -->
+			<div class="item tabs tabs-secondary tabs-icon-left">
+
+			    <!-- TWITTER -->
+			    <a class="tab-item" href="{{ crew.twitter }}">
+			    	<i class="icon ion-social-twitter"></i>
+			    </a>
+			    
+			    <!-- LINKED IN -->
+			    <a class="tab-item" href="{{ crew.linkedin }}">
+			    	<i class="icon ion-social-linkedin"></i>
+			    </a>
+			    
+			    <!-- GOOGLE + -->
+			    <a class="tab-item" href="{{ crew.google }}">
+			     	<i class="icon ion-social-googleplus"></i>
+			    </a>
+
+			</div>
+
+		</div>
+
+	</ion-content>
+
+</ion-modal-view>

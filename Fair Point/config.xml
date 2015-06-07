@@ -2,9 +2,9 @@
 <widget id="com.ionicframework.fairpoint821847" version="0.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
   <name>Fair Point</name>
   <description>
-        An Ionic Framework and Cordova project.
+        An application to store your most embaressing moments
     </description>
-  <author email="hi@ionicframework" href="http://ionicframework.com/">
+  <author email="davegadsden92@googlemail.com" href="http://www.davegadsden.com/">
       Ionic Framework Team
     </author>
   <content src="index.html"/>
@@ -15,7 +15,7 @@
   <preference name="android-minSdkVersion" value="16"/>
   <preference name="BackupWebStorage" value="none"/>
   <preference name="SplashScreen" value="screen"/>
-  <preference name="SplashScreenDelay" value="3000"/>
+  <preference name="SplashScreenDelay" value="2000"/>
   <feature name="StatusBar">
     <param name="ios-package" value="CDVStatusBar" onload="true"/>
   </feature>

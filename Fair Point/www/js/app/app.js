@@ -21,5 +21,3 @@ angular.module('FairPoint', [
 .config(appIdentify)
 
 .config(appRouting);
-
-

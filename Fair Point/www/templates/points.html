@@ -1,0 +1,18 @@
+<!-- POINTS VIEW -->
+<ion-view view-title="My Points">
+
+	<ion-content>
+
+		<ion-list>
+
+			<ion-item ng-repeat="point in points" href="#/app/points/{{point.id}}">
+		
+				{{point.title}}
+				
+			</ion-item>
+		
+		</ion-list>
+
+	</ion-content>
+
+</ion-view>

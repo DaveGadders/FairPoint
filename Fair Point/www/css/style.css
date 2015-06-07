@@ -1,1 +1,59 @@
 /* Empty. Add your own CSS if you like */
+
+/* http://www.materialpalette.com/blue/blue - MATERIAL COLOURS */
+
+/* LOGIN */
+.login-intro {
+	text-align: center !important;
+}
+
+.login-intro {
+	margin-bottom: 30px;
+}
+
+.login-screen {
+	background-color: #F5F5F5;
+}
+
+.button-border {
+	border-radius: 45px;
+}
+
+.header-color {
+	background-color: #303F9F;
+}
+
+.header-font, .header-item, .about-mod-header h1 {
+	color: #FFF;
+}
+
+/* ABOUT */
+.about-mod-header {
+	background-color: #1976D2;
+	border-bottom-color: #1976D2;
+}
+
+.about-mod-body {
+	background-color: #2196F3;
+}
+
+.crew-pic {
+	border-radius: 40px;
+	width: 40%;
+}
+
+/* FRIENDS */
+.friends-header {
+	float: left;
+}
+
+.add-friend {
+	position: relative;
+	border-radius: 100%;
+}
+
+/* MENU */
+.menu-profile-pic {
+	width: 30px;
+	height: 30px;
+}
