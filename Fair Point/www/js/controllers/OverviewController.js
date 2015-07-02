@@ -1,9 +1,9 @@
 /* OVERVIEW CONTROLLER */
 var OverviewController = 
 
-	['$scope',
+	['$scope', 'LoginFactory',
 
-		function($scope) {
+		function($scope, LoginFactory) {
 			
 		}
 
